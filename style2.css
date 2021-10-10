@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#banner{
+    padding: 58px;
+    margin: 58px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image:url(rahul.png);
+    background-position: center;
+    background-image: cover;
+    font: weight 100%;
+    }
