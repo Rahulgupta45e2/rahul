@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fs.css">
+    <title>vediosite</title>
+</head>
+<body>
+<section class="showcase ">
+  <header>
+      <h2 class="logo ">nature</h2>
+      <div class="toggle ">
+   </div>
+  </header>
+  <video src="1297186308.mp4"muted loop autoplay ></video> 
+<div class="overlay"></div>
+<div class="text">
+    <h2>never give</h2>
+    <h3>see the world</h3>
+    <p>Two roads diverged in a yellow wood,<br>
+        And sorry I could not travel both
+        And be one traveler, long I stood<br>
+        And looked down one as far as I could
+        To where it bent in the undergrowth;
+        </p>
+        <a href="#">explore</a>
+</div>
+<ul class="social">
+    <li><img src="facebook.png" alt="" width="20" height="20"></li>
+    <li><img src="instagram.png" alt="" width="20" height="20"></li>
+    <li><img src="twitter.png" alt="" width="20" height="20"></li>
+    <li><img src="youtube.png "altwidth="20" height="20"></li>
+</ul>
+</section>
+<div class="menu">
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">news</a></li>
+        <li><a href="#">destination</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">contact</a></li>
+    </ul>
+</div>
+<script>
+    const menuToggle =document.querySelector('.toggle')
+    const showcase =document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click',() =>{
+       menuToggle.classList.toggle('active')
+       showcase.classList.toggle('active')
+    })
+</script>
+</body>
+</html>
