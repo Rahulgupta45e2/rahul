@@ -40,7 +40,7 @@
         <a href="#"><i class="fab fa-twitter"></i></a>
     </div>
    <div class="slider-navigation">
-       <div class="nav-btn active"> </div>
+       <div class="nav-btn "> </div>
        <div class="nav-btn"> </div>
        <div class="nav-btn"> </div>
        <div class="nav-btn"> </div>
@@ -56,8 +56,8 @@
       });
 
       //javascript for vedio slider .
-      const btns = document.querySelectorALL(".nav-btn");
-      const slides = document.querySelectorALL(".video-slide");
+       const btns = document.querySelectorAll(".nav-btn");
+      const slides = document.querySelectorAll(".video-slide");
       var sliderNav =function(manual){
           btns.forEach(( btn) => {
           btn.classList.remove("active");
